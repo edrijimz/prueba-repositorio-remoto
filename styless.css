@@ -1,0 +1,134 @@
+* {
+  /* outline: 1px solid red; */
+  margin: 0;
+  padding: 0;
+}
+
+.formBox {
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+  font-family: "Viaoda Libre", sans-serif;
+}
+
+/* TÍTULO DE LA APP */
+
+.title {
+  background-image: linear-gradient(
+    45deg,
+    rgba(4, 105, 205, 1) 0%,
+    rgba(217, 255, 112, 1) 100%
+  );
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+
+/* FORMULARIOS PARA AGREGAR USUARIO */
+
+#addCrud {
+  /* outline: 3px solid #dd9d3d; */
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 10px;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.addCrud {
+  /* outline: 3px solid #815bc9; */
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+}
+
+.field {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.field label {
+  margin-bottom: 10px;
+}
+
+.field input {
+  /* border: 1px solid #afb5b9; */
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+}
+
+.submitButton,
+.updateButton {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  background-color: #1832f7;
+  color: #fff;
+  margin-left: 170px;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.updateButton {
+  display: none;
+}
+
+/* Crud List */
+
+.crudList {
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.crudItem {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.crudInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.actions {
+  width: 50%;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.actions button {
+  width: 50%;
+  border: none;
+  padding: 10px;
+  color: #fff;
+}
+
+.update {
+  background-color: #ffd400;
+}
+
+.delete {
+  background-color: #ff5400;
+}
